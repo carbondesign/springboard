@@ -1,0 +1,33 @@
+<head>
+    <title>Springboard@home</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <base href="/">
+</head>
+
+<body ng-app="springboard">
+    <div class="container">
+        <h1>Springboard@home</h1>
+        <div ui-view></div>
+        <footer id="sprbd-footer">
+            <md-toolbar>
+                <div class="md-toolbar-tools">
+                    <md-button class="md-button" aria-label="Favorite" href="/home">
+                        Home
+                    </md-button>
+                    <md-button class="md-button" aria-label="Favorite" href="/setgoals">
+                        Reading Plan
+                    </md-button>
+                    <md-button class="md-button" aria-label="More" href="/learnmore">
+                        Learn More
+                    </md-button>
+                    <md-button class="md-button" aria-label="More" href="/community" ng-disabled="true">
+                        Community
+                    </md-button>
+                    <md-button class="md-button" aria-label="More" href="/settings">
+                        Settings
+                    </md-button>
+                </div>
+            </md-toolbar >
+        </footer>
+    </div> 
+</body>
